@@ -1,0 +1,31 @@
+.titulo{
+    text-align: center;
+    color: white;
+}
+
+.bloque_titulo{
+    background-color: red;
+    padding: 5px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+.secciones{
+    font-size: 20px;
+}
+
+.texto{
+    font-size: 20px;
+    
+}
+
+.len{
+    font-size: 20px;
+}
+
+h2{
+    color: blue;
+    text-align: center;
+}
+
+

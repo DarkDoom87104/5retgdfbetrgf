@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog del Programador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="titulo" class="bloque_titulo">
+        <h1 class="titulo">Blog del Programador</h1>
+    </div>
+    
+    <h2>Sobre mi</h2>
+    <p class="texto">Soy un estudiante de programcion. Actualmente curso el quinto semestre de preparatoria, tengo 17 años y aspiro a ser ingeniero en sistemas computacionales. Y este pequeño blog quiero presentar algunos de los programas que he hecho a lo largo de mi carrera y ayudar a aquellos que estan empezando.</p>
+
+    <div class="secciones">
+        <ul>
+            <h3>Cosas que veremos</h3>
+            <li><a href="#lenguajes">Lenguajes</a></li>
+            <li><a href="#guias">Pequeñas guias</a></li>
+            <li><a href="#Proyectos">Proyectos</a></li>
+        </ul>
+    </div>
+
+    <div id="lenguajes" class="lenguajes">
+        <h2>Lenguajes</h2>
+        <p class="texto">Los lenguajes de programación son herramientas que permiten comunicarnos con las computadoras y darles instrucciones para crear aplicaciones, páginas web, videojuegos o sistemas completos. Existen muchos lenguajes, cada uno con sus ventajas y usos.</p>
+
+        <ul class="len">
+            <li>Python es popular por su sencillez y se usa en inteligencia artificial, ciencia de datos y automatización.</li>
+            <br>
+            <li>JavaScript es esencial para el desarrollo web, ya que permite crear páginas dinámicas e interactivas.</li>
+            <br>
+            <li>Java y C# se usan mucho en aplicaciones empresariales y móviles.</li>
+            <br>
+            <li>C y C++ son potentes y rápidos, ideales para sistemas y videojuegos.</li>
+            <br>
+        </ul>
+    </div>
+
+    <div>
+        <h2 id="guias" class="guias">Pequeñas guias</h2>
+        <h3>Como conectar java con SQL</h3>
+        <img src="img/login.png" width="700" height="400"/>
+        <p class="texto">Este código en Java establece una conexión con una base de datos MySQL llamada zoo, utilizando el usuario root y la contraseña correspondiente. Primero carga el driver de MySQL y crea la conexión a través de `DriverManager`. En el método principal, genera un objeto para conectarse, define un `Statement` y ejecuta una consulta SQL (`SELECT * FROM zoologico`). Los resultados se recorren con un `ResultSet`, y en cada fila se imprimen los valores de las columnas idzoo, nombre, ciudad y pais. Finalmente, se cierra la conexión para liberar recursos. En resumen, el programa sirve para conectarse a la base de datos, extraer registros de la tabla *zoologico* y mostrarlos en consola.
+        </p>
+    </div>
+
+    <div>
+        <h3>Recursividad</h3>
+        <img src="img/recursividad.png" width="700" height="400"/>
+        <p class="texto">Este código define la clase `coseno` con un método `Recursividad` que imprime números consecutivos usando recursión. El método recibe un número `x` y primero verifica si `x` es menor o igual a 5; si es así, imprime `x` y se llama a sí mismo con `x + 1`. Este proceso se repite hasta que `x` supera 5, momento en que la recursión termina. En resumen, el método recorre y muestra una secuencia de números de manera automática y progresiva mediante llamadas recursivas.
+
+        </p>
+    </div>
+
+    <div>
+        <h3>Encapsulamiento</h3>
+        <img src="img/encapsulamiento.png" width="700" height="400"/>
+        <p class="texto">Este código define la clase `coseno` con un método `Recursividad` que imprime números consecutivos usando recursión. El método recibe un número `x` y primero verifica si `x` es menor o igual a 5; si es así, imprime `x` y se llama a sí mismo con `x + 1`. Este proceso se repite hasta que `x` supera 5, momento en que la recursión termina. En resumen, el método recorre y muestra una secuencia de números de manera automática y progresiva mediante llamadas recursivas.
+        </p>
+    </div>
+
+    <div id="Proyectos">
+        <h2>Proyectos</h2>
+        <p style="font-size: 20px;">A continuacion veremos algunos codigos:</p>
+
+        <img src="img/java.png" width="700" height="400"/>
+
+        <p>Un login hecho en Java. Comparacion entre el primero que hice y el ultimo que hice</p>
+        <br>
+
+        <img src="img/pos.png" width="700" height="400"/>
+
+        <p>Un punto de venta hecho en C# el cual esta conectada a una base de datos</p>
+        <br>
+    </div>
+
+    <a href="#titulo"> volver al inicio</a>
+</body>
+</html>
